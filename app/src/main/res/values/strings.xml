@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BRF Archiver</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_screen">BRF Archiver</string>
+    <string name="title_activity_about">About...</string>
+    <string name="title_activity_archive">Archive</string>
+    <string name="settings.version">Android Version 1.0.0 (Release: Ajit Khan)</string>
+    <string name="settings.login">login</string>
+    <string name="settings.password">password</string>
+    <string name="settings.usernames">usernames</string>
+    <string name="settings.squelch_noise">squelch_noise</string>
+    <string name="settings.download_images">download_images</string>
+    <string name="settings.is_https">is_https</string>
+    <string name="settings.default_version">1.0.0</string>
+    <string name="title_activity_load">View Archive</string>
+    <string name="about_program">BRF Archiver for Android - A program to archive posts on the BRF forum.</string>
+    <string name="author_name">by Armen Tanzarian</string>
+    <string name="author_email">(brfcompendium@gmail.com)</string>
+    <string name="copyright_message">Copyright (c) 2016, Armen Tanzarian. All rights reserved.</string>
+    <string name="license">Released under a BSD-like license, except for one file released under the GPL. Please see the file LICENSE.txt for details about terms and conditions.</string>
+</resources>

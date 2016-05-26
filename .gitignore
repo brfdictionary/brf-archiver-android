@@ -1,0 +1,30 @@
+# Gradle generated iles
+.gradle/
+
+# Local config files
+local.properties
+
+# User config crap
+.idea/workspace.xml
+.idea/libraries/
+.idea/tasks.xml
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+*.iml
+
+# Build and debug stuff
+build/
+*.dex
+*.class
+
+# Log files
+*.log
+
+#OS Stuff
+.DS_Store

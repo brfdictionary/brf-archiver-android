@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/Black"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.anonymoose.brfarchiver.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load..."
+        android:id="@+id/buttonLoad"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_white_button"
+        android:onClick="onLoadButtonClicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Archive..."
+        android:id="@+id/buttonArchive"
+        android:layout_above="@+id/buttonLoad"
+        android:layout_centerHorizontal="true"
+        android:onClick="onArchiveButtonClicked"
+        android:background="@drawable/rounded_orange_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About..."
+        android:id="@+id/buttonAbout"
+        android:layout_below="@+id/buttonLoad"
+        android:layout_centerHorizontal="true"
+        android:onClick="onAboutButtonClick"
+        android:background="@drawable/rounded_green_button" />
+</RelativeLayout>
